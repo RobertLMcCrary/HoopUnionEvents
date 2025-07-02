@@ -1,5 +1,5 @@
 'use client';
-import { Calendar, MapPin, Users } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -118,7 +118,7 @@ export default function Home() {
                                             <MapPin className="detail-icon" />
                                             Canton, GA
                                         </div>
-										{/*
+                                        {/*
                                         <div className="detail-item">
                                             <Users className="detail-icon" />
                                             14/16 teams registered
@@ -170,7 +170,7 @@ export default function Home() {
                                             <MapPin className="detail-icon" />
                                             Canton, GA
                                         </div>
-										{/*
+                                        {/*
                                         <div className="detail-item">
                                             <Users className="detail-icon" />
                                             10/12 teams registered
